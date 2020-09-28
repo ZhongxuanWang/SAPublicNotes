@@ -7,7 +7,8 @@ logging.basicConfig(stream=sys.stderr)
 PATH_TO_APP_FOLDER = '/var/SAPublicNotes'
 
 # This name is your python folder name located either in venv or in your system. Mine is python3.6
-PYTHON_FOLDER_NAME = 'python3.8.2'
+# For python 3.8.*, shorten it to python3.8   Same goes for other versions
+PYTHON_FOLDER_NAME = 'python3.8'
 
 sys.path.insert(0, PATH_TO_APP_FOLDER + '')
 sys.path.append(PATH_TO_APP_FOLDER + 'templates/')
