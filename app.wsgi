@@ -24,7 +24,7 @@ from app import db, LoginManager
 application.config['SECRET_KEY'] = 'wwzzxxsecretekeytodatabase'
 application.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users/users.db'
 # FIXME when address changed
-application.config['SERVER_NAME'] = '18.163.84.83'
+# application.config['SERVER_NAME'] = '18.163.84.83'
 
 db.init_app(application)
 
