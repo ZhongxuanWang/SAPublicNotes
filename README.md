@@ -9,3 +9,4 @@ different classrooms in Saint Andrew's School**
 
 ## Information
 * Version:  **0.0.0.2020926**
+* Server IP: 18.163.84.83
