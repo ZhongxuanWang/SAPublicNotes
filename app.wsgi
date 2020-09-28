@@ -4,7 +4,7 @@ import logging
 logging.basicConfig(stream=sys.stderr)
 
 # This PATH must be full path.
-PATH_TO_APP_FOLDER = '/var/SAPublicNotes'
+PATH_TO_APP_FOLDER = '/var/SAPublicNotes/'
 
 # This name is your python folder name located either in venv or in your system. Mine is python3.6
 # For python 3.8.*, shorten it to python3.8   Same goes for other versions
