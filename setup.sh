@@ -1,0 +1,1 @@
+cp "./apache2_conf/notes.conf" "/etc/apache2/sites-available/notes.conf"
