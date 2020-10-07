@@ -79,6 +79,4 @@ def run_app():
     app.run(debug=True)
 
 
-if __name__ == '__main__':
-    # print('hello')
-    run_app()
+run_app()
