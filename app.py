@@ -79,6 +79,6 @@ def run_app():
     app.run(debug=True)
 
 
-if __name__ == 'app':
-    # print('hello')
-    run_app()
+# if __name__ == 'app':
+#     # print('hello')
+#     run_app()
