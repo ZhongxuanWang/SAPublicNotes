@@ -79,4 +79,10 @@ def run_app():
     app.run(debug=True)
 
 
-run_app()
+if app.env == "development":
+    run_app()
+
+
+if __name__ == '__main__':
+    # print('hello')
+    run_app()
