@@ -44,4 +44,4 @@ def load_user(user_id):
     from user import User
     return User.query.get(int(user_id))
 
-application.run(debug=True)
+# application.run(debug=True)
